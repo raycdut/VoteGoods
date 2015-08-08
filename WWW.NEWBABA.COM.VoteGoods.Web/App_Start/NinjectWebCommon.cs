@@ -9,6 +9,8 @@ namespace WWW.NEWBABA.COM.VoteGoods.Web.App_Start
     using System;
     using System.Web;
 
+    using WWW.NEWBABA.COM.VoteGoods.Web.Models;
+
     public static class NinjectWebCommon
     {
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
@@ -59,6 +61,7 @@ namespace WWW.NEWBABA.COM.VoteGoods.Web.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            //kernel.Bind<VoteGoodsModels>().ToSelf().InSingletonScope();
         }
     }
 }

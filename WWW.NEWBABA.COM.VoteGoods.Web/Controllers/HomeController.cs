@@ -1,26 +1,56 @@
-﻿using System.Web.Mvc;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="HomeController.cs" company="">
+//
+// </copyright>
+// <summary>
+//   The home controller.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
 
 namespace WWW.NEWBABA.COM.VoteGoods.Web.Controllers
 {
+    using System.Web.Mvc;
+
+    /// <summary>
+    /// The home controller.
+    /// </summary>
     public class HomeController : Controller
     {
+        /// <summary>
+        /// The index.
+        /// </summary>
+        /// <returns>
+        /// The <see cref="ActionResult"/>.
+        /// </returns>
         public ActionResult Index()
         {
-            return View();
+            return this.View();
         }
 
+        /// <summary>
+        /// The about.
+        /// </summary>
+        /// <returns>
+        /// The <see cref="ActionResult"/>.
+        /// </returns>
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            this.ViewBag.Message = "Your application description page.";
 
-            return View();
+            return this.View();
         }
 
+        /// <summary>
+        /// The contact.
+        /// </summary>
+        /// <returns>
+        /// The <see cref="ActionResult"/>.
+        /// </returns>
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            this.ViewBag.Message = "Your contact page.";
 
-            return View();
+            return this.View();
         }
     }
 }

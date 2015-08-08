@@ -1,8 +1,10 @@
-using System.Web.Http;
-using System.Web.Mvc;
-
-namespace VoteGoods.Areas.HelpPage
+namespace WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage
 {
+    using System.Web.Http;
+    using System.Web.Mvc;
+
+    using WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.App_Start;
+
     public class HelpPageAreaRegistration : AreaRegistration
     {
         public override string AreaName

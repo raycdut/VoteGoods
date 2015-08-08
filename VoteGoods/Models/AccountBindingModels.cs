@@ -1,9 +1,7 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using Newtonsoft.Json;
-
-namespace VoteGoods.Models
+﻿namespace WWW.NEWBABA.COM.VoteGoods.Models
 {
+    using System.ComponentModel.DataAnnotations;
+
     // 用作 AccountController 操作的参数的模型。
 
     public class AddExternalLoginBindingModel

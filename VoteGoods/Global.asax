@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="VoteGoods.WebApiApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="WWW.NEWBABA.COM.VoteGoods.WebApiApplication" Language="C#" %>

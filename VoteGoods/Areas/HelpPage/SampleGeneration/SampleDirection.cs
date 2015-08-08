@@ -1,4 +1,4 @@
-namespace VoteGoods.Areas.HelpPage
+namespace WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.SampleGeneration
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

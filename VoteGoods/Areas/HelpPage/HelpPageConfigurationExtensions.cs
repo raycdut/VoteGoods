@@ -1,21 +1,23 @@
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Web.Http;
-using System.Web.Http.Controllers;
-using System.Web.Http.Description;
-using VoteGoods.Areas.HelpPage.ModelDescriptions;
-using VoteGoods.Areas.HelpPage.Models;
-
-namespace VoteGoods.Areas.HelpPage
+namespace WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.ComponentModel;
+    using System.Diagnostics;
+    using System.Diagnostics.CodeAnalysis;
+    using System.Globalization;
+    using System.Linq;
+    using System.Net.Http;
+    using System.Net.Http.Headers;
+    using System.Web.Http;
+    using System.Web.Http.Controllers;
+    using System.Web.Http.Description;
+
+    using WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.ModelDescriptions;
+    using WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.Models;
+    using WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.SampleGeneration;
+
     public static class HelpPageConfigurationExtensions
     {
         private const string ApiModelPrefix = "MS_HelpPageApiModel_";

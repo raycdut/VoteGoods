@@ -1,13 +1,12 @@
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-
-namespace VoteGoods.Areas.HelpPage.ModelDescriptions
+namespace WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.ModelDescriptions
 {
+    using System.Collections.ObjectModel;
+
     public class EnumTypeModelDescription : ModelDescription
     {
         public EnumTypeModelDescription()
         {
-            Values = new Collection<EnumValueDescription>();
+            this.Values = new Collection<EnumValueDescription>();
         }
 
         public Collection<EnumValueDescription> Values { get; private set; }

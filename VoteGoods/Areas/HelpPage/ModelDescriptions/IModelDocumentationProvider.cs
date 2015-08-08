@@ -1,8 +1,8 @@
-using System;
-using System.Reflection;
-
-namespace VoteGoods.Areas.HelpPage.ModelDescriptions
+namespace WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.ModelDescriptions
 {
+    using System;
+    using System.Reflection;
+
     public interface IModelDocumentationProvider
     {
         string GetDocumentation(MemberInfo member);

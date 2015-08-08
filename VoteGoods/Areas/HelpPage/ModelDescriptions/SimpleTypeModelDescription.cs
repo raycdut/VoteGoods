@@ -1,4 +1,4 @@
-namespace VoteGoods.Areas.HelpPage.ModelDescriptions
+namespace WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.ModelDescriptions
 {
     public class SimpleTypeModelDescription : ModelDescription
     {

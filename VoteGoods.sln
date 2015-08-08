@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoteGoods", "VoteGoods\VoteGoods.csproj", "{02857A93-51A4-4298-9787-93A488D916C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.newbaba.com.VoteGoods", "VoteGoods\www.newbaba.com.VoteGoods.csproj", "{02857A93-51A4-4298-9787-93A488D916C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoteGoods.Tests", "VoteGoods.Tests\VoteGoods.Tests.csproj", "{D04C5332-3A2F-4047-BA06-D1D9B02C20DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.newbaba.com.VoteGoods.Tests", "VoteGoods.Tests\www.newbaba.com.VoteGoods.Tests.csproj", "{D04C5332-3A2F-4047-BA06-D1D9B02C20DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

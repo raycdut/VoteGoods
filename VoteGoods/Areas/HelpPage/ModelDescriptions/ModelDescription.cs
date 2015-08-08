@@ -1,7 +1,7 @@
-using System;
-
-namespace VoteGoods.Areas.HelpPage.ModelDescriptions
+namespace WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.ModelDescriptions
 {
+    using System;
+
     /// <summary>
     /// Describes a type model.
     /// </summary>

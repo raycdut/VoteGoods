@@ -1,7 +1,7 @@
-using System;
-
-namespace VoteGoods.Areas.HelpPage.ModelDescriptions
+namespace WWW.NEWBABA.COM.VoteGoods.Areas.HelpPage.ModelDescriptions
 {
+    using System;
+
     /// <summary>
     /// Use this attribute to change the name of the <see cref="ModelDescription"/> generated for a type.
     /// </summary>
@@ -10,7 +10,7 @@ namespace VoteGoods.Areas.HelpPage.ModelDescriptions
     {
         public ModelNameAttribute(string name)
         {
-            Name = name;
+            this.Name = name;
         }
 
         public string Name { get; private set; }

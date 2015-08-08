@@ -1,18 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace VoteGoods.Controllers
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="HomeController.cs" company="WWW.NEWBABA.COM">
+//   
+// </copyright>
+// <summary>
+//   The home controller.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+namespace WWW.NEWBABA.COM.VoteGoods.Controllers
 {
+    using System.Web.Mvc;
+
+    /// <summary>
+    ///     The home controller.
+    /// </summary>
     public class HomeController : Controller
     {
+        /// <summary>
+        ///     The index.
+        /// </summary>
+        /// <returns>
+        ///     The <see cref="ActionResult" />.
+        /// </returns>
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page1";
+            this.ViewBag.Title = "Home Page1";
 
-            return View();
+            return this.View();
         }
     }
 }

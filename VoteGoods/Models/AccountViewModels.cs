@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace VoteGoods.Models
+﻿namespace WWW.NEWBABA.COM.VoteGoods.Models
 {
+    using System.Collections.Generic;
+
     // AccountController 操作返回的模型。
 
     public class ExternalLoginViewModel

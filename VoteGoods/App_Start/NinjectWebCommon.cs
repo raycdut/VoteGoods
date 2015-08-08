@@ -1,7 +1,9 @@
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(VoteGoods.App_Start.NinjectWebCommon), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(VoteGoods.App_Start.NinjectWebCommon), "Stop")]
+using WWW.NEWBABA.COM.VoteGoods;
 
-namespace VoteGoods.App_Start
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NinjectWebCommon), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(NinjectWebCommon), "Stop")]
+
+namespace WWW.NEWBABA.COM.VoteGoods
 {
     using System;
     using System.Web;

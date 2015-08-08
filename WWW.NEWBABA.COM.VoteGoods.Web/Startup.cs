@@ -2,6 +2,7 @@
 using Owin;
 
 [assembly: OwinStartupAttribute(typeof(WWW.NEWBABA.COM.VoteGoods.Web.Startup))]
+
 namespace WWW.NEWBABA.COM.VoteGoods.Web
 {
     public partial class Startup

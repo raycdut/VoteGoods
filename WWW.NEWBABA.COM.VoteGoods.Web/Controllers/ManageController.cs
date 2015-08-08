@@ -1,11 +1,10 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
 using WWW.NEWBABA.COM.VoteGoods.Web.Models;
 
 namespace WWW.NEWBABA.COM.VoteGoods.Web.Controllers
@@ -32,9 +31,9 @@ namespace WWW.NEWBABA.COM.VoteGoods.Web.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
         }
 
@@ -331,7 +330,8 @@ namespace WWW.NEWBABA.COM.VoteGoods.Web.Controllers
             base.Dispose(disposing);
         }
 
-#region 帮助程序
+        #region 帮助程序
+
         // 用于在添加外部登录名时提供 XSRF 保护
         private const string XsrfKey = "XsrfId";
 
@@ -382,6 +382,6 @@ namespace WWW.NEWBABA.COM.VoteGoods.Web.Controllers
             Error
         }
 
-#endregion
+        #endregion 帮助程序
     }
 }

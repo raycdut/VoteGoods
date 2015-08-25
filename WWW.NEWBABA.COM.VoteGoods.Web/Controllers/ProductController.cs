@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="ProductController.cs" company="">
+// <copyright file="ProductController.cs" company="WWW.NEWBABA.COM“>
 //
 // </copyright>
 // <summary>
@@ -9,6 +9,7 @@
 namespace WWW.NEWBABA.COM.VoteGoods.Web.Controllers
 {
     using System;
+    using System.Diagnostics.CodeAnalysis;
     using System.Linq;
     using System.Web.Mvc;
 
@@ -22,6 +23,7 @@ namespace WWW.NEWBABA.COM.VoteGoods.Web.Controllers
         /// <summary>
         ///     The db context.
         /// </summary>
+        [SuppressMessage("StyleCop.CSharp.NamingRules", "SA1306:FieldNamesMustBeginWithLowerCaseLetter", Justification = "Reviewed. Suppression is OK here.")]
         private readonly VoteGoodsModels DbContext;
 
         /// <summary>

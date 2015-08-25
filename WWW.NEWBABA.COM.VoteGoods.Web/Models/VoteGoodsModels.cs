@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="VoteGoodsModels.cs" company="">
+// <copyright file="VoteGoodsModels.cs" company="WWW.NEWBABA.COM“>
 //
 // </copyright>
 // <summary>

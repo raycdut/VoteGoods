@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="IdentityConfig.cs" company="">
+// <copyright file="IdentityConfig.cs" company="WWW.NEWBABA.COM“>
 //
 // </copyright>
 // <summary>
